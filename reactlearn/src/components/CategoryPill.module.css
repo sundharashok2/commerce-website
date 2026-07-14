@@ -1,0 +1,29 @@
+.pill {
+  padding: 8px 20px;
+  border-radius: 999px;
+  border: none;
+  background-color: #f2f2f2;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  white-space: nowrap;
+}
+.pillRow {
+  display: flex;
+  gap: 12px;
+  padding: 40px 48px 28px;
+}
+.pill:hover {
+  background-color: #e8e8e8;
+}
+
+.active {
+  background-color: #9b2c55;
+  color: #ffffff;
+}
+
+.active:hover {
+  background-color: #7a2143;
+}
